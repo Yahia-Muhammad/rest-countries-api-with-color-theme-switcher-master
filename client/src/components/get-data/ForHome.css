@@ -1,0 +1,46 @@
+.countrys {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+
+.img-countrys {
+  height: 192px;
+}
+
+.img-countrys img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-countrys {
+  padding: 30px 0 50px 25px;
+  height: 50%;
+}
+
+.info-countrys h3 {
+  margin-bottom: 25px;
+}
+
+.info-countrys h4 {
+  margin-bottom: 5px;
+}
+
+@media (min-width: 320px) {
+  .countrys {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .countrys {
+    width: 45%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .countrys {
+    width: 21%;
+  }
+}

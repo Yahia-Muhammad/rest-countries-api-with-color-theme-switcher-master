@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+header>div {
+  width: var(--mainWidth);
+  margin: var(--mainMargin);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.toggle-theme{
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  background-color: transparent;
+  border: none;
+}
+.toggle-theme span{
+  position: absolute;
+  left: -20px;
+  top: 2px;
+  font-weight: bold;
+}

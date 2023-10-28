@@ -1,0 +1,41 @@
+/* ===============================
+==========Global Code==========
+=============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+:root {
+  --mainWidth: 89%;
+  --mainMargin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.pointer,
+button {
+  cursor: pointer;
+}
+
+.vh {
+  min-height: 100vh;
+}
+
+.vhh {
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .vh {
+    height: auto;
+  }
+}

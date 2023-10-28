@@ -1,0 +1,113 @@
+/* ===============================
+==========Global==========
+=============================== */
+
+.light h1,
+.light h2,
+.light h3,
+.light h4,
+.light h5,
+.light h6,
+.light a,
+.light button,
+.light .icon {
+  color: hsl(200, 15%, 8%);
+}
+
+.light h4 span{
+  color: hsl(0, 0%, 52%);
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6,
+.dark a,
+.dark button,
+.dark .icon {
+  color: hsl(0, 0%, 100%);
+}
+
+.dark h4 span{
+  color: hsl(0, 0%, 52%);
+}
+
+/* ===============================
+==========Header==========
+=============================== */
+
+.light header {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 5px -5px 12px hsl(0, 0%, 52%), -10px -60px 15px #ffffff;
+}
+
+.dark header {
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 5px -5px 12px hsl(209deg 27.5% 7.15%), -10px -60px 15px #ffffff;
+}
+
+/* ===============================
+==========Home==========
+=============================== */
+
+.light {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.dark {
+  background-color: hsl(207, 26%, 17%);
+}
+
+.light .search-container input,
+.light .control select {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(200, 15%, 8%);
+  box-shadow: 0px 0px 10px hsl(0 0% 85% / 1), 0px 0px 0px #FFFFFF;
+}
+
+.dark .search-container input,
+.dark .control select {
+  background-color: hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 10px hsl(209 25% 15% / 1), 0px 0px 0px #FFFFFF;
+}
+
+/* ===============================
+==========Countrys Elements==========
+=============================== */
+
+.light .countrys {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 0px 10px hsl(0 0% 85% / 1), 0px 0px 0px #FFFFFF;
+}
+
+.dark .countrys {
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 0px 0px 10px hsl(209 25% 15% / 1), 0px 0px 0px #FFFFFF;
+}
+
+/* ===============================
+==========Country Page==========
+=============================== */
+
+.light .country button {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 2px 2px 4px hsl(0, 0%, 52%), 0px 0px 0px #ffffff;
+}
+
+.dark .country button {
+  background-color: hsl(209, 23%, 22%);
+  box-shadow: 2px 2px 4px hsl(209 25% 15% / 1), 0px 0px 0px #ffffff;
+}
+
+.light .broders {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 52%);
+}
+
+.dark .broders {
+  background-color: hsl(209, 23%, 22%);
+  color: hsl(0, 0%, 52%);
+}
